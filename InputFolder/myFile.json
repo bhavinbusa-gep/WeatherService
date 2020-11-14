@@ -1,0 +1,26 @@
+[
+	{
+		"cityName": "Mumbai",
+		"cityID":1275339
+	},
+	{
+		"cityName":"State of Gujarat",
+		"cityID":1270770
+	},
+	{
+		"cityName":"Paris",
+		"cityID":2968815
+	},
+	{
+		"cityName":"Dubai",
+		"cityID":292223
+	},
+	{
+		"cityName":"New Delhi",
+		"cityID":1261481
+	},
+	{
+		"cityName":"Washington",
+		"cityID":2634715
+	}
+]
