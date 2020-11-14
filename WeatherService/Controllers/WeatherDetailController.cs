@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using WeatherService.BusinessEntities;
 using WeatherService.BusinessObjects.Interface;
 
 namespace WeatherService.API.Controllers

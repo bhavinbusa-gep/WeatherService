@@ -9,8 +9,12 @@ namespace WeatherService.API
 {
     public class GetWeatherDetailManagerTestCase
     {
+        #region Members
+
         private HttpClient objHttpClient = new HttpClient(new HTTPMessageHandlerStub());
         private GetWeatherDetailManager objGetWeatherDetailManager = null;
+
+        #endregion
 
         #region Constrructor
 
@@ -21,6 +25,8 @@ namespace WeatherService.API
 
         #endregion
 
+        #region ConnectToClientUnitTest
+
         [Test]
         public void ConnectToClientUnitTest()
         {
@@ -28,5 +34,7 @@ namespace WeatherService.API
             var result = objGetWeatherDetailManager.GetWeatherDetailByCityId(cityId);
             Assert.NotNull(result);
         }
+
+        #endregion
     }
 }

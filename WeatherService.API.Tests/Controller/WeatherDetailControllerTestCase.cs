@@ -1,9 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using WeatherService.API.Controllers;
 using WeatherService.BusinessEntities;
 using WeatherService.BusinessObjects.Interface;
@@ -30,7 +28,7 @@ namespace WeatherService.API.Tests
 
         #endregion
 
-      #region ReadWeatherDetails
+        #region ReadWeatherDetails
 
         [Test]
         public void ReadWeatherDetails()
@@ -48,7 +46,7 @@ namespace WeatherService.API.Tests
             _mockFileManager.Setup(s => s.ReadWeatherDetails()).Returns(lstWeatherDetail);
             _mockIGetWeatherDetailManager.Setup(s => s.GetWeatherDetailByCityId(It.IsAny<long>())).ReturnsAsync(objWeatherData);
             _mockFileManager.Setup(s => s.SaveWeatherDetails(It.IsAny<WeatherData>(), It.IsAny<string>()));
-            
+
             _weatherDetailController = new WeatherDetailController(_mockIGetWeatherDetailManager.Object, _mockFileManager.Object);
             var result = _weatherDetailController.ReadWeatherDetails();
             Assert.NotNull(result);
