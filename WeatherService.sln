@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService.API", "WeatherService\WeatherService.API.csproj", "{2A24DE7D-2FD7-4EDD-8868-11AD4E49621F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService.BusinessEntities", "WeatherService.BusinessEntities\WeatherService.BusinessEntities.csproj", "{41FDFB3A-4DFD-4EA7-BB73-CD17B052983F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService.BusinessObjects", "WeatherService.BusinessObjects\WeatherService.BusinessObjects.csproj", "{1D45242D-AF8E-4892-943F-AD7BEA2B5F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService.BusinessObjects.Interface", "WeatherService.BusinessObjects.Interface\WeatherService.BusinessObjects.Interface.csproj", "{886902F0-2A29-48C9-BDD2-0D4B9805D079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{49431764-EC31-4FF1-B32A-45845ACCA2C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NUnit", "NUnit", "{41B686BE-9E02-42EC-A362-BD53D659B44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService.API.Tests", "WeatherService.API.Tests\WeatherService.API.Tests.csproj", "{CA116CAC-9B28-4A40-AC13-AD65E9BAAA74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A24DE7D-2FD7-4EDD-8868-11AD4E49621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A24DE7D-2FD7-4EDD-8868-11AD4E49621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A24DE7D-2FD7-4EDD-8868-11AD4E49621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A24DE7D-2FD7-4EDD-8868-11AD4E49621F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FDFB3A-4DFD-4EA7-BB73-CD17B052983F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FDFB3A-4DFD-4EA7-BB73-CD17B052983F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FDFB3A-4DFD-4EA7-BB73-CD17B052983F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FDFB3A-4DFD-4EA7-BB73-CD17B052983F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D45242D-AF8E-4892-943F-AD7BEA2B5F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D45242D-AF8E-4892-943F-AD7BEA2B5F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D45242D-AF8E-4892-943F-AD7BEA2B5F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D45242D-AF8E-4892-943F-AD7BEA2B5F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886902F0-2A29-48C9-BDD2-0D4B9805D079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886902F0-2A29-48C9-BDD2-0D4B9805D079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886902F0-2A29-48C9-BDD2-0D4B9805D079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886902F0-2A29-48C9-BDD2-0D4B9805D079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA116CAC-9B28-4A40-AC13-AD65E9BAAA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA116CAC-9B28-4A40-AC13-AD65E9BAAA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA116CAC-9B28-4A40-AC13-AD65E9BAAA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA116CAC-9B28-4A40-AC13-AD65E9BAAA74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41B686BE-9E02-42EC-A362-BD53D659B44B} = {49431764-EC31-4FF1-B32A-45845ACCA2C9}
+		{CA116CAC-9B28-4A40-AC13-AD65E9BAAA74} = {41B686BE-9E02-42EC-A362-BD53D659B44B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F638C0-1050-4E7A-BE3C-6F35A7B4D290}
+	EndGlobalSection
+EndGlobal
